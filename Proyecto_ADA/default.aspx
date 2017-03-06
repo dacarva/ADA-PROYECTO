@@ -7,6 +7,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server" >
 
-
+    <div>Esto esta funcionando 06/03/2017</div>
 
 </asp:Content>
