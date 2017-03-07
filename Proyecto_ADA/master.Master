@@ -6,6 +6,9 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -17,6 +20,62 @@
 
     <form id="form1" runat="server">
     <div>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Módulo PPE
+                                        <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Página 1</a></li>
+                                <li><a href="#">Página 2</a></li>
+                                <li><a href="#">Página 3</a></li>
+                                <li><a href="#">Página 4</a></li>
+                                <li><a href="#">Página 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gestión del cambio
+                                        <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Página 1</a></li>
+                                <li><a href="#">Página 2</a></li>
+                                <li><a href="#">Página 3</a></li>
+                                <li><a href="#">Página 4</a></li>
+                                <li><a href="#">Página 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Test
+                                        <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Página 1</a></li>
+                                <li><a href="#">Página 2</a></li>
+                                <li><a href="#">Página 3</a></li>
+                                <li><a href="#">Página 4</a></li>
+                                <li><a href="#">Página 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Otro test
+                                        <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Página 1</a></li>
+                                <li><a href="#">Página 2</a></li>
+                                <li><a href="#">Página 3</a></li>
+                                <li><a href="#">Página 4</a></li>
+                                <li><a href="#">Página 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
 
 
