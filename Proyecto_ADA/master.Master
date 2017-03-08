@@ -7,6 +7,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+<%--    <link href="Content/custom-styles.css" rel="stylesheet" />--%>
+<%--    <link href="Content/Pingendo-theme.css" rel="stylesheet" />--%>
     <script src="Scripts/jquery-1.9.1.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -82,6 +85,11 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+
+        <footer style="background-color:#f8f8f8;">
+            <p class="text-center">Este es el footer</p>
+        </footer>
+
     </div>
     </form>
 </body>
