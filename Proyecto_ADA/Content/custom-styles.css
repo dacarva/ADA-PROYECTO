@@ -1,1 +1,20 @@
-﻿
+﻿/*Dejamos todas las text-areas de un ancho y alto fijo*/
+.fixed-text-area {
+    max-width:100%;
+    min-width:100%;
+    min-height:90px;
+    max-height:90px;
+}
+
+/*Removemos el margen izquierdo de la forma*/
+.to-remove-left-margin{
+    padding-left:0;
+}
+
+/*Centramos un div*/
+
+.fondo-rojo{
+    margin:auto;
+    background-color:red;
+}
+

@@ -11,230 +11,230 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class EPP_form
+Partial Public Class Informe_auditoria
     
     '''<summary>
-    '''Control Label_Nombre_EPP.
+    '''Control Label_Objetivo_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Nombre_EPP As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Label_Objetivo_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Nombre_EPP.
+    '''Control Objetivo_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Nombre_EPP As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Objetivo_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Label_Parte_Cuerpo.
+    '''Control Label_Alcance_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Parte_Cuerpo As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Label_Alcance_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Parte_Cuerpo.
+    '''Control Alcance_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Parte_Cuerpo As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Alcance_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Image1.
+    '''Control Label_Proceso_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents Label_Proceso_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label_Riesgo_Controlado.
+    '''Control Proceso_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Riesgo_Controlado As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Proceso_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Riesgo_Controlado.
+    '''Control Label_Fecha_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Riesgo_Controlado As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label_Fecha_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label_DD_Cargo_Asociado.
+    '''Control Fecha_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_DD_Cargo_Asociado As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Fecha_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control DD_Cargo_Asociado.
+    '''Control Label_Ubicacion_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents DD_Cargo_Asociado As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents Label_Ubicacion_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label_Numero_Trabajadores_A_Cargo.
+    '''Control Ubicacion_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Numero_Trabajadores_A_Cargo As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Ubicacion_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Numero_Trabajadores_A_Cargo.
+    '''Control Label_Criterios_Auditoria_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Numero_Trabajadores_A_Cargo As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label_Criterios_Auditoria_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label_Especificacion_Tecnica.
+    '''Control Criterios_Auditoria_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Especificacion_Tecnica As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Criterios_Auditoria_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Especificacion_Tecnica.
+    '''Control Label_Hallazgo_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Especificacion_Tecnica As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label_Hallazgo_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label_Uso.
+    '''Control Hallazgo_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Uso As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Hallazgo_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Uso.
+    '''Control Label_Tipo_Hallazgo_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Uso As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label_Tipo_Hallazgo_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label_Mantenimiento.
+    '''Control Tipo_Hallazgo_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Mantenimiento As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Tipo_Hallazgo_IA As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''Control Mantenimiento.
+    '''Control Label_Actividad_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Mantenimiento As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label_Actividad_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label_Vida_Util.
+    '''Control Actividad_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Vida_Util As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Actividad_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Vida_Util.
+    '''Control Label_Responsable_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Vida_Util As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label_Responsable_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label_Reposicion.
+    '''Control Responsable_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Reposicion As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Responsable_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Reposicion.
+    '''Control Label_Fecha_Realizacion_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Reposicion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label_Fecha_Realizacion_IA As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control Label_Disposicion_Final.
+    '''Control Fecha_Realizacion_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Disposicion_Final As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Fecha_Realizacion_IA As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Disposicion_Final.
+    '''Control Button_Eliminar_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Disposicion_Final As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Button_Eliminar_IA As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control Label_Ficha_Tecnica_Upload.
+    '''Control Button_Guardar_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label_Ficha_Tecnica_Upload As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Button_Guardar_IA As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control FileUploadControl.
+    '''Control Button_Modificar_IA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents FileUploadControl As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents Button_Modificar_IA As Global.System.Web.UI.WebControls.Button
 End Class

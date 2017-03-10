@@ -102,6 +102,7 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Pingendo-theme.css" />
+    <Content Include="Crear_auditoria.aspx" />
     <Content Include="default.aspx" />
     <Content Include="EPP_form.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -120,6 +121,11 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Gestion_cambio.aspx" />
+    <Content Include="Informe_auditoria.aspx" />
+    <Content Include="Lista_verificacion_auditoria.aspx" />
+    <Content Include="Plan_auditoria.aspx" />
+    <Content Include="Programa_auditoria.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.1.1-vsdoc.js" />
@@ -132,6 +138,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Crear_auditoria.aspx.designer.vb">
+      <DependentUpon>Crear_auditoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Crear_auditoria.aspx.vb">
+      <DependentUpon>Crear_auditoria.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="default.aspx.designer.vb">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
@@ -144,6 +157,27 @@
     </Compile>
     <Compile Include="EPP_form.aspx.vb">
       <DependentUpon>EPP_form.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Gestion_cambio.aspx.designer.vb">
+      <DependentUpon>Gestion_cambio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_cambio.aspx.vb">
+      <DependentUpon>Gestion_cambio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Informe_auditoria.aspx.designer.vb">
+      <DependentUpon>Informe_auditoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Informe_auditoria.aspx.vb">
+      <DependentUpon>Informe_auditoria.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Lista_verificacion_auditoria.aspx.designer.vb">
+      <DependentUpon>Lista_verificacion_auditoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lista_verificacion_auditoria.aspx.vb">
+      <DependentUpon>Lista_verificacion_auditoria.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="master.Master.designer.vb">
@@ -171,6 +205,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Plan_auditoria.aspx.designer.vb">
+      <DependentUpon>Plan_auditoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Plan_auditoria.aspx.vb">
+      <DependentUpon>Plan_auditoria.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Programa_auditoria.aspx.designer.vb">
+      <DependentUpon>Programa_auditoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programa_auditoria.aspx.vb">
+      <DependentUpon>Programa_auditoria.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
