@@ -103,6 +103,7 @@
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Pingendo-theme.css" />
     <Content Include="Crear_auditoria.aspx" />
+    <Content Include="CU_05_Presupuesto_Home.aspx" />
     <Content Include="default.aspx" />
     <Content Include="EPP_form.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -143,6 +144,13 @@
     </Compile>
     <Compile Include="Crear_auditoria.aspx.vb">
       <DependentUpon>Crear_auditoria.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CU_05_Presupuesto_Home.aspx.designer.vb">
+      <DependentUpon>CU_05_Presupuesto_Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CU_05_Presupuesto_Home.aspx.vb">
+      <DependentUpon>CU_05_Presupuesto_Home.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="default.aspx.designer.vb">

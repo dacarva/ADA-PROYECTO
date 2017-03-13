@@ -52,11 +52,11 @@
                                     <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="Crear_auditoria.aspx">Crear auditoría</a></li>
-                                    <li><a href="Informe_auditoria.aspx">Informe auditoría</a></li>
-                                    <li><a href="Lista_verificacion_auditoria.aspx">Lista de verificación</a></li>
-                                    <li><a href="Plan_auditoria.aspx">Plan de auditorías</a></li>
-                                    <li><a href="Programa_auditoria.aspx">Programa de auditorías</a></li>
+                                    <li><a href="#">Presupuesto1</a></li>
+                                    <li><a href="#">Presupuesto1</a></li>
+                                    <li><a href="#">Presupuesto1</a></li>
+                                    <li><a href="#">Presupuesto1</a></li>
+                                    <li><a href="#">Presupuesto1</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -68,6 +68,7 @@
 
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div class="container-fluid"></div>
             </asp:ContentPlaceHolder>
 
             <footer style="background-color: #f8f8f8;">

@@ -1,20 +1,24 @@
 ﻿/*Dejamos todas las text-areas de un ancho y alto fijo*/
 .fixed-text-area {
-    max-width:100%;
-    min-width:100%;
-    min-height:90px;
-    max-height:90px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 90px;
+    max-height: 90px;
 }
 
 /*Removemos el margen izquierdo de la forma*/
-.to-remove-left-margin{
-    padding-left:0;
+.to-remove-left-margin {
+    padding-left: 0;
 }
 
-/*Centramos un div*/
-
-.fondo-rojo{
-    margin:auto;
-    background-color:red;
+/*Incrementamos el margen inferior de la forma*/
+.to-increase-bottom-margin {
+    margin-bottom: 3px;
 }
 
+.btn-responsive {
+    width: 200px;
+    height: 4em;
+    white-space: normal !important;
+    word-wrap: break-word;
+}
