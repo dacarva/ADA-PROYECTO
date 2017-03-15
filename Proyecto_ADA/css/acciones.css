@@ -1,0 +1,42 @@
+﻿.titulo_ac {width:100%;
+            background-color:#000;
+            font-family:Calibri, Arial, sans-serif;
+            font-size:15px;
+            text-align:left;
+            color:white;
+            clear:both;
+}
+
+.seccion_ac {width:100%;
+            background-color:#fff;
+            font-family:Calibri, Arial, sans-serif;
+            font-size:15px;
+            clear:both;
+            padding-top:5px;
+            padding-bottom:5px;
+}
+
+.contenido_sec1 {
+                 
+}
+
+    .contenido_sec1 > div {float:left;
+                           
+    }
+
+ .contenido_sec2 {clear:both;
+                 margin-bottom:5px;
+                 margin-top:5px;
+}
+
+    .contenido_sec2 > div {float:left;
+                           
+    }
+
+#Content2 {clear:both;
+           background-color:red;
+}
+
+  
+
+

@@ -68,8 +68,7 @@
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -102,6 +101,7 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Pingendo-theme.css" />
+    <Content Include="css\presupuestos.css" />
     <Content Include="default.aspx" />
     <Content Include="EPP_form.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -120,6 +120,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="PRESUPUESTO.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.1.1-vsdoc.js" />
@@ -171,6 +172,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PRESUPUESTO.aspx.designer.vb">
+      <DependentUpon>PRESUPUESTO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PRESUPUESTO.aspx.vb">
+      <DependentUpon>PRESUPUESTO.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
