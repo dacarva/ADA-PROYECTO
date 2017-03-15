@@ -11,23 +11,32 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class _default
+Partial Public Class CU_05_Presupuesto_Home
     
     '''<summary>
-    '''Control Label1.
+    '''Control Button1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control TextBox1.
+    '''Control Button2.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''Control Button3.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
 End Class

@@ -9,4 +9,7 @@
 
     <div>Esto esta funcionando 06/03/2017</div>
 
+    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+
 </asp:Content>
